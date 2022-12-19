@@ -1,0 +1,77 @@
+.product{
+    width: 90%;
+    margin: 0 auto;
+}
+.arrow-product img{
+    width: 50px;
+}
+.name-product{
+    font-size: 40px;
+    text-align: center;
+    margin: 50px;
+    text-transform: uppercase;
+}
+.image-product{
+    width: 400px;
+}
+.conteiner-product{
+    display: flex;
+}
+.name-product2{
+    font-size: 35px;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+.price{
+    font-size: 23px;
+    color: rgba(255, 0, 0, 0.575);
+    padding: 40px 0 40px 0;
+    text-decoration: underline;
+}
+.icon{
+    background-image: url(https://static.thenounproject.com/png/766721-200.png);
+    width: 140px;
+    height: 30px;
+    background-position: center;
+    background-size: cover;
+}
+button{
+    font-size: 35px;
+    color: rgba(0, 0, 255, 0.582);
+    text-transform: uppercase;
+    margin-top: 80px;
+    width: 150px;
+    background-color: transparent;
+}
+@media(max-width:716px){
+    .arrow-product img{
+        width: 30px;
+    }
+    .conteiner-product img{
+        width: 200px;
+        height: 200px;
+        margin: 0;
+    }
+    .conteiner-product{
+        width: 100%;
+    }
+    .name-product2{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .price{
+        padding-top: 10px;
+    }
+    .lorem-text{
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+    }
+    button{
+        width: 100px;
+        font-size: 20px;
+        margin-top: 10px;
+
+    }
+}
